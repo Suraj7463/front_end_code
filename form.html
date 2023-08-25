@@ -1,46 +1,57 @@
 <!DOCTYPE html>
+<html>
 <head>
-    <title>html form</title>
-    <script type="text/javascript">
-        function validate()
-        {
-            var username=document.getElementById("username");
-            var password=document.getElementById("password");
-            var email=document.getElementById("email");
-            var full_name=document.getElementById("full_name");
-
-            if(username.value=="" || password.value=="" || email.value=="" || full_name.value=="")
-            {
-                alert("No Blank Value Allowed");
-                return false;
-            }
-            else
-            {
-                return true;
-
-            }
-        }
-
-
-    </script>
+	<link rel="stylesheet" type="text/css" href="register.css">
 </head>
 <body>
-    <h1>HTML FORM</h1>
-    <form onsubmit="return validate()" action="sucses.html">
-        <label for="username">Username : </label>
-        <input type="text" id="username"> <br> <br>
+	<div id="brandname">
+		
+		Amazon customer
+	</div>
+	<form name="f1">
+		<center>
+			<table width="40%" cellpadding="5">
+				<tr>
+					<td colspan="2" align="center"><h2>Customer registration</h2></td>
+				</tr>
+				<tr>
+					<td class="shift_to_right">First name</td>
+					<td><input type="text" name="fname" class="myinput"></td>
+				</tr>
+				<tr>
+					<td class="shift_to_right">last name</td>
+					<td><input type="text" name="lname" class="myinput"></td>
+				</tr>
+				<tr>
+					<td class="shift_to_right">Phone no</td>
+					<td><input type="text" name="pn" class="myinput"></td>
+				</tr>
+				<tr>
+					<td class="shift_to_right">Address</td>
+					<td><textarea cols="20" rows="5" class="myinput"></textarea></td>
+				</tr>
+				<tr>
+					<td class="shift_to_right">Username</td>
+					<td><input type="text" name="uname" class="myinput"></td>
+				</tr>
+				<tr>
+					<td class="shift_to_right">Email</td>
+					<td><input type="Email" name="email" class="myinput"></td>
+				</tr>
+				<tr>
+					<td class="shift_to_right">password</td>
+					<td><input type="password" name="pwd" class="myinput"></td>
+				</tr>
+				<tr>
+					<td colspan="2" align="center">
+						<input type="submit" value="register" class="mybtn">
+						<input type="reset" value="reset" class="mybtn">
+					</td>
+				</tr>
+			</table>
+		</center>
+		
+	</form>
 
-        <label for="password">Password: </label>
-        <input type="password" id="password"> <br> <br>
-
-        <label for="email">Email :</label>
-        <input type="email" id="email"> <br> <br>
-
-        <label for="full name">full name :</label>
-        <input type="full name" id="full_name"> <br> <br>
-
-        <button type="submit">Submit</button>
-
-
-    </form>
 </body>
+</html>

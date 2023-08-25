@@ -1,0 +1,34 @@
+body{
+	margin: 0px;
+}
+#brandname{
+	font-size: 23px;
+	background-color: red;
+	font-style: italic;
+	color: white;
+	padding: 3px;
+	margin-bottom: -5px;
+
+}
+.shift_right{
+	float: right;
+}
+.button{
+	color: red;
+	padding: 4px;
+	border-radius: 15px 5px;
+
+}
+.button:hover{
+	background-color: blue;
+	color: white;
+	font-size: solid;
+}
+.myinput{
+	border-color: lightgrey;
+	outline-color: red;
+	border-radius: 3px
+	padding:5px;
+	width: 60%;
+	
+}

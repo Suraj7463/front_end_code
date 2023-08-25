@@ -1,0 +1,35 @@
+body{
+	margin: 0px;
+}
+#brandname{
+	background-color: purple;
+	color: white;
+	padding: 10px;
+	font-size: 23px;
+	font-style: italic;
+}
+.shift_to_right
+{
+	float: right;
+}
+.mybtn{
+	background-color: purple;
+	color: white;
+	font-size: 17px;
+	border-radius: 5px;
+	border: none;
+	padding: 7px 20px;
+
+}
+.mybtn:hover{
+	background-color: gold;
+	color:#000123;
+	font-size:solid;
+}
+.myinput{
+	border-radius: 3px;
+	padding: 5px;
+	outline-color: red;
+	border-color: lightgrey;
+	width: 60%;
+}

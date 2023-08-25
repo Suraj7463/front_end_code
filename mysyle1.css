@@ -1,0 +1,25 @@
+body{
+	margin: 0px;
+
+}
+div{
+	padding: 10px;
+	background-color: gold;
+
+}
+#tagline{
+	margin-top: -25px;
+
+}
+.abc{
+	background-color: purple;
+	color: white;
+	font-size: 23px;
+	padding: 5px;
+	width: 200px;
+	text-align: center;
+	border-radius: 0px 20px 20px 0px;
+}
+.abc:hover{
+	font-weight: bold;
+}
