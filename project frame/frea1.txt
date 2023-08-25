@@ -1,0 +1,33 @@
+1)testframe
+
+
+
+2)a.html
+<!DOCTYPE html>
+<html>
+<head>
+	<title>www.axisbank.com</title>
+</head>
+<body bgcolor="crimson">
+	<center>
+		<h1>Axis Bank</h1>
+	</center>
+	
+
+</body>
+</html>
+
+3)b.html
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>www.axisbank.com</title>
+</head>
+<body bgcolor="crimson">
+	<h2>Home Loan</h2>
+	<h2>Car Loan</h2>
+	<h2>Credit card</h2>
+
+</body>
+</html>

@@ -1,0 +1,71 @@
+1)index.html
+<html>
+<frameset rows="20%,80%">
+	<frame src="head.html" name="f1"></frame>
+	<frameset cols="15%,85%">
+		<frame src="link.html" name="f2"></frame>
+		<frame src="home.html" name="f3"></frame>
+		
+	</frameset>
+	
+</frameset>
+
+</html>
+
+1)head.html
+<!DOCTYPE html>
+<html>
+<body bgcolor="#57C84D">
+	<center>
+		<h1>Amazon</h1>
+	</center>
+	<marquee>Welcome</marquee>
+
+
+</body>
+</html>
+
+2)home.html
+
+<!DOCTYPE html>
+<html>
+<body bgcolor="#57C84D">
+	<center>
+		<h1>Home Page Data</h1>
+	</center>
+	
+
+
+</body>
+</html>
+
+3)link.html
+
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body bgcolor="#57C84D">
+	<a href="aboutus.html" target="f3">About us</a>
+	<a href="#" target="f3">Our team</a>
+	<a href="#" target="f3">Product</a>
+	<a href="#" target="f3">Services</a>
+	<a href="#" target="f3">Contact Us</a>
+.html
+</body>
+</html>
+
+4)aboutus.html
+
+<!DOCTYPE html>
+<html>
+<body bgcolor="#57C84D">
+	<center>
+		<h1>About us Page Data</h1>
+	</center>
+	
+
+
+</body>
+</html>

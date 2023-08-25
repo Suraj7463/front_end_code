@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>www.anvistar.in</title>
+</head>
+<body>
+	<body bgcolor="crimson">
+	<center> <h1>Frasko Tours & Travales</h1></center>
+
+	<hr  size="7px">
+	<center>
+		<marquee scrolldelay="150px">
+		<img src="pics/europe1.jpg" width="200"height="300">
+		<img src="pics/thailand.jpg" width="200"height="300">
+		<img src="pics/kerala.jpg" width="200"height="300">
+		<img src="pics/singapore.jpg" width="200"height="300">
+		<img src="pics/delhi.jpg" width="200"height="300">
+		<p>a<i>bove images are delhi,europe,kerala and singapore</i></p>
+	</marquee>
+	</center>
+	<br>
+	<center>
+		<img src="pics/canada.jpg" width="300"height="300">
+		<img src="pics/europe.jpg" width="300"height="300">
+		<img src="pics/usa.jpg" width="300"height="300">
+		<img src="pics/dubai.jpg" width="300"height="300">
+	</center>
+
+</body>
+</html>
